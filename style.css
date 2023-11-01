@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono&family=Poppins&family=Raleway:wght@100;500&family=Roboto:wght@100;400&family=Young+Serif&display=swap');
+
+* {
+    font-family: Poppins;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    margin: 0 auto;
+}
+
+.container-a {
+    margin: 0 auto;
+    width: 1440.067px;
+    height: 889px;
+    background: url(./img/pizza-background.png), lightgray -961.167px 0px / 169.326% 100% no-repeat;
+    background-position: right top;
+    background-size: cover;
+}
+
+.container-a p {
+    color: #FFF;
+}
+
+nav {
+    position: relative;
+    justify-content: flex-end;
+    align-items: center;
+    width: 1440.067px;
+    display: flex;
+    color: white;
+    gap: 44px;
+}
+
+.name {
+    position: relative;
+    margin-right: auto;
+    font-weight: 700;
+    font-size: 18px;
+    top: 20px;
+    left: 121px;
+    letter-spacing: 0.3px;
+}
+
+.nav-info,
+.download-button {
+    position: relative;
+    font-weight: 700;
+    font-size: 14px;
+    right: 143px;
+    top: 19.5px;
+}
+
+.download-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 209px;
+    height: 48px;
+    flex-shrink: 0;
+    background: var(--yeallow-brand-color, #FC0);
+    bottom: 10px;
+    right: 119.5px;
+}
+
+[menu] {
+    position: relative;
+    right: 140.5px;
+}
+
+[offer] {
+    position: relative;
+    right: 139px;
+}
+
+[about] {
+    position: relative;
+    right: 134px;
+}
+
+[contact] {
+    position: relative;
+    right: 132px;
+}
+
+.price {
+    letter-spacing: 1px;
+    position: relative;
+    font-weight: 700;
+    font-size: 26px;
+    margin: 70px;
+    left: 50px;
+    top: 3px;
+}
+
+.pizza-text {
+    letter-spacing: 1.5px;
+    position: relative;
+    font-weight: 600;
+    font-size: 64px;
+    bottom: 43px;
+    left: 121px;
+}
+
+.discount-order {
+    display: flex;
+}
+
+.ellipse {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    left: 120.5px;
+    bottom: 66.5px;
+}
+
+.ellipse img {
+    width: 205px;
+    height: 205px;
+    flex-shrink: 0;
+}
+
+.discount {
+    letter-spacing: 0.5px;
+    position: relative;
+    width: 181.039px;
+    font-size: 31.948px;
+    font-weight: 700;
+    bottom: 358px;
+    left: 25px;
+}
+
+.percent {
+    letter-spacing: 3px;
+    position: relative;
+    font-size: 63.896px;
+    font-weight: 700;
+    bottom: 255px;
+    left: 46px;
+}
+
+.order-info {
+    position: relative;
+    width: 324px;
+    font-weight: 600;
+    font-size: 36px;
+    bottom: 589px;
+    left: 233px;
+    letter-spacing: 0.4px;
+    line-height: 58px;
+}
+
+.order-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 209px;
+    height: 48px;
+    flex-shrink: 0;
+    background: var(--yeallow-brand-color, #FC0);
+    top: 230px;
+    right: 203.5px;
+    letter-spacing: 1px;
+}
+
+.order-button p {
+    position: absolute;
+    font-weight: 700;
+    font-size: 13px;
+    left: 45px;
+}
+
+.container-b {
+    margin: 0 auto;
+    color: black;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1440px;
+    height: 800px;
+}
+
+.top-foods {
+    position: relative;
+    color: var(--yeallow-brand-color, #FC0);
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 27px;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: -50px;
+
+}
+
+.categories {
+    position: absolute;
+    font-weight: 600;
+    font-size: 55px;
+}
+
+.food-cards img {
+    width: 277px;
+}
+
+.food-cards {
+    position: relative;
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.food-name {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.pizza,
+.pasta,
+.shakes,
+.burger {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.food-description {
+    position: relative;
+    font-weight: 600;
+    font-size: 20px;
+}
