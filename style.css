@@ -312,12 +312,3 @@ nav {
     left: 28px;
     letter-spacing: 0.3px;
 }
-
-.container-c {
-    display: flex;
-    position: relative;
-    margin: 0 auto;
-    background: var(--yeallow-brand-color, #FC0);
-    width: 1440px;
-    height: 400px;
-}
