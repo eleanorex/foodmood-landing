@@ -347,9 +347,9 @@ nav {
 
 .order-ad {
     color: var(--white-secondery-color, #FFF);
-font-family: Poppins;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
