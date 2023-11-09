@@ -312,3 +312,44 @@ nav {
     left: 28px;
     letter-spacing: 0.3px;
 }
+
+.container-c {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    display: flex;
+    margin: 0 auto;
+    width: 1440px;
+    height: 400px;
+    flex-shrink: 0;
+    background: var(--yeallow-brand-color, #FC0);
+    bottom: 180px;
+}
+
+.order-card-a,
+.order-card-b,
+.order-card-c {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    height: 400px;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.order-card-a img {
+    position: static;
+    width: 115px;
+    height: 115px
+}
+
+.order-ad {
+    color: var(--white-secondery-color, #FFF);
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
