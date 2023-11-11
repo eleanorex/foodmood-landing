@@ -337,20 +337,210 @@ nav {
     flex-shrink: 0;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 
 .order-card-a img {
-    position: static;
+    position: relative;
     width: 115px;
-    height: 115px
+    height: 115px;
+    top: 14px;
 }
 
-.order-ad {
+.order-ad,
+.order-ad-b {
+    position: relative;
     color: var(--white-secondery-color, #FFF);
     font-family: Poppins;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    letter-spacing: 0.3px;
 }
 
+.order-text {
+    position: relative;
+    width: 380px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    bottom: 12px;
+    color: var(--white-secondery-color, #FFF);
+}
+
+[up] {
+    position: relative;
+    top: 35px;
+    letter-spacing: 0.3px;
+}
+
+[down] {
+    position: relative;
+    top: 2px;
+}
+
+[burger-icon] {
+    position: absolute;
+    width: 39.504px;
+    height: 39.504px;
+    flex-shrink: 0;
+    bottom: 280px;
+}
+
+[circle-b] {
+    position: relative;
+    top: 13px;
+}
+
+.order-ad-b {
+    position: relative;
+}
+
+[up-b] {
+    top: 37px;
+}
+
+[down-b] {
+    bottom: -2px;
+}
+
+.order-text-b {
+    position: absolute;
+}
+
+[img-c] {
+    position: relative;
+    top: 14px;
+}
+
+[up-c] {
+    top: 35px;
+    letter-spacing: 0.5px;
+}
+
+[down-c] {
+    top: 12px;
+}
+
+.container-d {
+    display: flex;
+    flex-direction: column;
+    bottom: 180px;
+    position: relative;
+    margin: 0 auto;
+    width: 1440px;
+    height: 820px;
+    background: var(--white-semi-white, #F5F5F5);
+    align-items: center;
+}
+
+.outlets {
+    position: relative;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--yeallow-brand-color, #FC0);
+    top: 58px;
+    right: 10px;
+    letter-spacing: 0.3px;
+}
+
+.find-outlet {
+    position: relative;
+    color: var(--black-font-color, #231900);
+    text-align: center;
+    font-size: 55px;
+    font-weight: 600;
+    top: -10px;
+    letter-spacing: 0.3px;
+}
+
+.outlet-cards {
+    display: flex;
+    flex-direction: row;
+}
+
+.outlet-card {
+    display: flex;
+    width: 380px;
+    height: 563px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 29px;
+}
+
+.outlet-card img {
+    position: relative;
+}
+
+.outlet-card p {
+    position: relative;
+}
+
+[outlet] {
+    width: 380px;
+    height: 440px;
+}
+
+[mark] {
+    width: 20.427px;
+    height: 32.875px;
+}
+
+.adress {
+    width: 380px;
+    text-align: center;
+    color: var(--black-font-color, #231900);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+[a-outlet-img] {
+    position: relative;
+    bottom: 7.5px;
+    right: 30px;
+}
+
+[a-mark] {
+    position: relative;
+    bottom: 16px;
+    right: 29px;
+}
+
+[a-adress] {
+    position: relative;
+    bottom: 55px;
+    right: 30px;
+    letter-spacing: 0.3px
+}
+
+[b-outlet-img] {
+    bottom: 7.5px;
+}
+
+[b-mark] {
+    bottom: 16px;
+    left: 0.7px;
+}
+
+[b-adress] {
+    bottom: 55px;
+    letter-spacing: 0.3px;
+}
+
+[c-outlet-img] {
+    left: 30px;
+    bottom: 7.5px;
+}
+
+[c-mark] {
+    left: 31px;
+    bottom: 16px;
+}
+
+[c-adress] {
+    bottom: 55px;
+    left: 30px;
+    letter-spacing: 0.3px;
+}
