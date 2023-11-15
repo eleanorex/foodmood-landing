@@ -544,3 +544,139 @@ nav {
     left: 30px;
     letter-spacing: 0.3px;
 }
+
+.visitor-container {
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1440px;
+    height: 800px;
+    background: var(--white-secondery-color, #FFF);
+    bottom: 180px;
+    color: var(--black-font-color, #231900);
+}
+
+.visitor-text {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.pizza-delivery {
+    color: var(--yeallow-brand-color, #FC0);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    align-self: flex-start;
+    letter-spacing: 0.5px;
+    top: 90px;
+    left: 128px;
+}
+
+.visitor-container * {
+    position: relative;
+}
+
+.get-started {
+    font-size: 55px;
+    font-weight: 600;
+    top: 17.5px;
+    left: 120px;
+    letter-spacing: 0.5px;
+}
+
+.yellow-line {
+    width: 175px;
+    height: 5px;
+    background: #FC0;
+    bottom: 26.8px;
+    left: 121px;
+}
+
+.everything {
+    width: 585px;
+    font-size: 26px;
+    font-weight: 600;
+    bottom: 30px;
+    left: 120px;
+    letter-spacing: 0.3px;
+}
+
+.lorem-delivery {
+    width: 585px;
+    font-size: 17px;
+    font-weight: 400;
+    bottom: 52px;
+    left: 120px;
+    line-height: 1.5;
+}
+
+.visitor-cards {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    bottom: 14px;
+    left: 120px;
+}
+
+.visitor-card-a,
+.visitor-card-b {
+    display: flex;
+    flex-direction: column;
+}
+
+.visitor-card-a,
+.visitor-card-b * {
+    position: relative;
+}
+
+.visitor-card-a img,
+.visitor-card-b img {
+    width: 100px;
+    height: 100px;
+}
+
+.title-text {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card-text {
+    width: 277px;
+    height: 71px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.visitor-card-b {
+    position: relative;
+    left: 15px;
+}
+
+
+[text-b] {
+    bottom: 28px;
+    left: 15px;
+    line-height: 1.5;
+}
+
+[title-b] {
+    left: 15px;
+    letter-spacing: 0.3px;
+}
+
+[text-a] {
+    bottom: 27px;
+    line-height: 1.5;
+}
+
+.customer-photo {
+    position: absolute;
+    width: 585px;
+    height: 585px;
+    border-radius: 585px;
+    left: 735px;
+    top: 108px;
+}
