@@ -587,7 +587,7 @@ nav {
     letter-spacing: 0.5px;
 }
 
-.yellow-line {
+[first-line] {
     width: 175px;
     height: 5px;
     background: #FC0;
@@ -679,4 +679,140 @@ nav {
     border-radius: 585px;
     left: 735px;
     top: 108px;
+}
+
+.team-container {
+    position: relative;
+    margin: 0 auto;
+    width: 1440px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    background: #FFF;
+    bottom: 179.5px;
+    align-items: center;
+}
+
+.team-container>* {
+    position: relative;
+    font-weight: 600;
+}
+
+.team-members {
+    font-size: 18px;
+    color: var(--yeallow-brand-color, #FC0);
+    top: 29px;
+    letter-spacing: 0.5px;
+    left: 5px;
+}
+
+.meet-team {
+    font-size: 55px;
+    bottom: 40px;
+    letter-spacing: 0.5px;
+}
+
+[second-line] {
+    width: 205px;
+    height: 5px;
+    background: #FC0;
+    bottom: 75px;
+    left: 1px;
+}
+
+.member-cards {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+[member-card] {
+    position: relative;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+[member-card]>* {
+    position: relative;
+}
+
+.member-name {
+    font-size: 24px;
+    color: var(--black-font-color, #231900);
+    top: 21.5px;
+    letter-spacing: 0.5px;
+}
+
+.member-cards img {
+    height: 350px;
+    width: 277px;
+    object-fit: cover;
+}
+
+.member-job {
+    font-weight: 400;
+    font-size: 20px;
+    bottom: 10px;
+}
+
+[member-card] img {
+    top: 10px;
+}
+
+.app-container * {
+    position: relative;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+    width: 1440px;
+    height: 734px;
+    background: linear-gradient(91deg, #FC0 17.25%, rgba(255, 204, 0, 0.00) 178.38%);
+    bottom: 179.5px;
+    color: #FFFFFF;
+}
+
+.app-discount-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.phone {
+    height: 534px;
+    bottom: 35px;
+    left: 30px;
+}
+
+.get-discount {
+    font-weight: 700;
+    font-size: 55px;
+    bottom: 34px;
+    right: 55px;
+    letter-spacing: 0.6px;
+}
+
+.get-app {
+    font-size: 26px;
+    font-weight: 600;
+    width: 554px;
+    bottom: 80px;
+    right: 55px;
+    letter-spacing: 0.3px;
+}
+
+.logos {
+    display: flex;
+    gap: 12px;
+    bottom: 33px;
+    right: 55px;
 }
