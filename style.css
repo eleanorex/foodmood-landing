@@ -25,12 +25,15 @@ body {
     background-color: white;
 }
 
+.container-a *  {
+    position: relative;
+}
+
 .container-a p {
     color: #FFF;
 }
 
 nav {
-    position: relative;
     justify-content: flex-end;
     align-items: center;
     width: 1440.067px;
@@ -40,7 +43,6 @@ nav {
 }
 
 .name {
-    position: relative;
     margin-right: auto;
     font-weight: 700;
     font-size: 18px;
@@ -51,7 +53,6 @@ nav {
 
 .nav-info,
 .download-button {
-    position: relative;
     font-weight: 700;
     font-size: 14px;
     right: 143px;
@@ -138,7 +139,6 @@ nav {
 
 .percent {
     letter-spacing: 3px;
-    position: relative;
     font-size: 63.896px;
     font-weight: 700;
     bottom: 255px;
@@ -146,7 +146,6 @@ nav {
 }
 
 .order-info {
-    position: relative;
     width: 324px;
     font-weight: 600;
     font-size: 36px;
@@ -157,7 +156,6 @@ nav {
 }
 
 .order-button {
-    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -189,7 +187,6 @@ nav {
 }
 
 .top-foods {
-    position: relative;
     color: var(--yeallow-brand-color, #FC0);
     font-size: 18px;
     font-weight: 600;
