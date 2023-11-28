@@ -25,7 +25,7 @@ body {
     background-color: white;
 }
 
-.container-a *  {
+.container-a * {
     position: relative;
 }
 
@@ -813,3 +813,34 @@ nav {
     bottom: 33px;
     right: 55px;
 }
+
+.logo-container {
+    position: relative;
+    display: flex;
+    width: 1440px;
+    height: 350px;
+    margin: 0 auto;
+    flex-direction: row;
+    background: #FFF;
+    bottom: 179.5px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.logo-container img {
+    width: 278px;
+}
+
+footer {
+    position: relative;
+    display: flex;
+    width: 1440px;
+    height: 586px;
+    margin: 0 auto;
+    bottom: 179.5px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
